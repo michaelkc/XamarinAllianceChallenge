@@ -16,7 +16,7 @@
                        IsEnabled="True"
                        x:Name="syncIndicator"/>
     <StackLayout Grid.Row="0" BackgroundColor="#5ABAFF" Padding="10,30,10,5">
-      <Label TextColor="#555555" Text="Xamarin Alliance Members" />
+      <Label TextColor="#555555" Text="Xamarin Alliance Members:" />
     </StackLayout>
     <ListView x:Name="characterList"
 				IsPullToRefreshEnabled="true" Refreshing="OnRefresh"
@@ -35,3 +35,5 @@
     </ListView>
   </Grid>
 </ContentPage>
+
+    
